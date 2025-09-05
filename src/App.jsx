@@ -1,6 +1,7 @@
 // import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Studio from "./components/Studio";
 import "./output.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <Studio />
     </>
   );
 }

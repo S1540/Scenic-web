@@ -5,7 +5,7 @@ const Header = () => {
   const menuItems = ["HOME", "STUDIO", "OUR PEOPLE", "LETS TALK"];
   return (
     <>
-      <header className="fixed left-0 right-0 z-50 bg-green-400/90 p-5 text-white">
+      <header className="fixed left-0 right-0 z-50 bg-[#4DC47D] p-5 text-white">
         <div className="flex justify-between px-2 md:justify-around items-center">
           <h1 className="text-2xl md:text-3xl">Scenic</h1>
           <div className="space-x-8 hidden md:block">
