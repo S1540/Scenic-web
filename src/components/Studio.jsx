@@ -20,7 +20,7 @@ const Studio = () => {
             Integer nunc libero.
           </p>
         </div>
-        <div className="md:w-7xl mx-auto flex flex-wrap gap-5">
+        <div className="md:w-7xl mx-auto flex flex-wrap gap-5 overflow-hidden">
           {images.map((img, index) => (
             <StudioCard key={index} image={img} />
           ))}

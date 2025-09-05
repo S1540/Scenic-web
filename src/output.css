@@ -282,6 +282,9 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
+  .w-fit {
+    width: fit-content;
+  }
   .w-full {
     width: 100%;
   }
@@ -554,6 +557,9 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .bg-blend-overlay {
+    background-blend-mode: overlay;
   }
   .outline {
     outline-style: var(--tw-outline-style);
