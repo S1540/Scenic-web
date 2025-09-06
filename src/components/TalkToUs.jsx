@@ -1,10 +1,10 @@
 import React from "react";
-import backgroundImage from "../assets/background-image.jpg";
+import backgroundImage from "../assets/10047995.jpg";
 
 const TalkToUs = () => {
   return (
     <>
-      <div className="relative max-w-full h-screen overflow-hidden">
+      <div className="relative max-w-full h-screen overflow-hidden  ">
         <img
           src={backgroundImage}
           alt="background-image"
@@ -12,7 +12,7 @@ const TalkToUs = () => {
         />
 
         {/* Title */}
-        <div className="absolute inset-0 text-center py-10 text-4xl md:text-5xl font-thin tracking-widest">
+        <div className="absolute inset-0 text-center pb-20 pt-10 text-4xl md:text-5xl font-thin tracking-widest">
           <h1>Talk To Us!</h1>
         </div>
 
@@ -46,7 +46,7 @@ const TalkToUs = () => {
 
           <button
             type="submit"
-            className="text-base bg-green-400/90 px-6 py-2.5 font-mono hover:bg-gray-500 transition-all duration-300 ease-in cursor-pointer"
+            className="text-base bg-green-400/90 px-6 py-2.5 mt-4 font-mono hover:bg-gray-500 transition-all duration-300 ease-in cursor-pointer"
           >
             Send Message
           </button>
