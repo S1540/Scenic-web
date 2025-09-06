@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import OurPeople from "./components/OurPeople";
 import OurPeopleCard from "./components/OurPeopleCard";
 import Studio from "./components/Studio";
+import TalkToUs from "./components/TalkToUs";
 import "./output.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Studio />
       <OurPeople />
+      <TalkToUs />
     </>
   );
 }
