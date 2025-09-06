@@ -10,7 +10,7 @@ const Studio = () => {
   return (
     <>
       <div className="max-w-full bg-gray-100 ">
-        <div className="text-center py-40 md:w-5xl mx-auto ">
+        <div className="text-center py-20 md:py-40 md:w-5xl mx-auto ">
           <h1 className="text-gray-800/90 text-sm font-bold uppercase tracking-[8px]">
             Introducing Scenic
           </h1>
@@ -20,7 +20,7 @@ const Studio = () => {
             Integer nunc libero.
           </p>
         </div>
-        <div className="md:w-7xl mx-auto flex flex-wrap gap-5 overflow-hidden">
+        <div className="md:w-7xl mx-auto flex justify-center md:justify-start flex-wrap gap-5 overflow-hidden">
           {images.map((img, index) => (
             <StudioCard key={index} image={img} />
           ))}
