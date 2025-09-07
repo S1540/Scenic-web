@@ -18,7 +18,7 @@ const OurPeople = () => {
         <h1 className="text-3xl md:text-5xl font-thin text-center pt-36 pb-10 text-gray-800">
           Meet Our People
         </h1>
-        <div className="flex flex-wrap gap-5 md:gap-10 justify-center pb-20">
+        <div className="min-w-1/2 flex flex-wrap gap-5 md:gap-10 justify-center pb-20">
           {people.map((person, index) => (
             <OurPeopleCard
               key={index}

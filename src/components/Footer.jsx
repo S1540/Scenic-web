@@ -1,4 +1,8 @@
 import React from "react";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -24,6 +28,12 @@ const Footer = () => {
             Sed vestibulum posuere ante, eget blandit metus. Morbi sodales
             feugiat erat, et placerat sapien suscipit ut.
           </p>
+          <div className="flex gap-5 text-2xl justify-center-safe md:justify-start  py-5">
+            <FaTwitter className="cursor-pointer   hover:scale-110 transition-all duration-300 ease-in" />
+            <FaFacebook className="cursor-pointer hover:scale-110 transition-all duration-300 ease-in" />
+            <FaInstagramSquare className="cursor-pointer hover:scale-110 transition-all duration-300 ease-in" />
+            <FaLinkedin className="cursor-pointer hover:scale-110 transition-all duration-300 ease-in" />
+          </div>
         </div>
 
         <span className="text-start py-10 text-gray-800 font-medium">

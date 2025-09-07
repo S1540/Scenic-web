@@ -6,7 +6,7 @@ const OurPeopleCard = ({ person, level, image }) => {
   return (
     <>
       <div className="p-5 w-60">
-        <div className="relative w-60 h-60  group overflow-hidden shadow-md">
+        <div className="relative max-w-60 max-h-60  group overflow-hidden shadow-md">
           <img
             src={image}
             alt="unloaded-image"
