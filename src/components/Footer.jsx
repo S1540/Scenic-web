@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-100 pt-20 flex flex-wrap justify-around items-start px-5 md:px-20 ">
+      <footer className="bg-gray-100 pt-20 flex flex-wrap justify-around items-start px-5 md:px-20 text-center md:text-left ">
         <div className="w-full md:w-1/3 px-2">
           <h1 className="text-3xl font-thin py-6">Digital Studio</h1>
           <p className="text-gray-500">
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <span className="text-start py-10 text-gray-800 font-medium">
-          Copyright © 2018 Company Name | Design: Tooplate
+          Copyright © 2018 Company Name | Design: Shubham Singh
         </span>
       </footer>
     </>
